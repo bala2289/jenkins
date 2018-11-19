@@ -18,7 +18,7 @@ pipeline {
         }
         stage('docker push') {
             steps {
-                sh 'docker login --username bala2289 -p'
+                sh 'docker login --username  -p'
                 sh 'docker push website-counter'
             }
         }
